@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Foza Pizzas</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+	</head>
+	<body>
+
+		<div data-role="page" id="welcomepage" data-theme="b">
+			<div data-role="header" data-position="standard">
+				<h1>Foza Pizzas</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<ul data-role="listview" data-inset="true" data-theme="b">
+					<li data-role="list-divider">Welcome!</li>
+					<li><a href="#menu" data-transition="slide">Menu!</a></li>
+					<li><a href="#contactus" data-transition="slide">Contacting Us!</a></li>
+					<li><a href="#developer" data-transition="slide">Site Developer?</a></li>
+				</ul>
+				<h1>Welcome!</h1>
+				<p>Welcome to Foza Pizzas, the only place you can get the most spectacular,
+					awesome, greatest, finest, most amazing pizza ever! 
+					We also serve pasta too, for those wondering!</p>
+
+				<footer data-role="footer">
+					<h3>Alex Fotheringham</h3> 
+				</footer>
+			</div>
+		</div>
+
+		<div data-role="page" id="menu" data-theme="b">
+			<div data-role="header" data-position="standard">
+				<h1>Foza Pizzas</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<a href="#welcomepage" data-role="button" data-transition="slide">Home Page!</a>
+				<h1>The - Menu:</h1>
+				<footer data-role="footer">
+					<h3>Alex Fotheringham</h3> 
+				</footer>
+			</div>
+		</div>
+
+		<div data-role="page" id="contactus" data-theme="b">
+			<div data-role="header" data-position="standard">
+				<h1>Foza Pizzas</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<a href="#welcomepage" data-role="button" data-transition="slide">Home Page!</a>
+				<h1>Trying to find us?</h1>
+				<div id="map_canvas" style="height:100%"></div>
+				<a href="fozapizzas-feedback.html" data-role="button"><h2>Give us feedback:</h2></a>
+				<footer data-role="footer">
+					<h3>Alex Fotheringham</h3> 
+				</footer>
+			</div>
+		</div>
+
+		<div data-role="page" id="developer" data-theme="c">
+			<div data-role="header" data-position="standard">
+				<h1>A developer made this? Huh? -> About Alex Fotheringham!</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<a href="#welcomepage" data-role="button" data-transition="slide">Home Page!</a>
+				<h1>About Alex Fotheringham</h1>
+				<p>Hi, you may be wondering why on earth you are even visiting this page but hang on! 
+					My name is Bob... just kidding, if you haven't caught on yet my name is Alex. I developed this mobile web application
+					for a restaurant type shop so customers can access their information.
+				</p>
+				<p>I know absolutely nothing about business, so that's why I developed the first ever mobile website list to show your customers 
+					every cost price you pay. So your customers really appreciate how much you rip them...
+					Just kidding, I am currently completing a double degree in information technology and business information systems. So I
+					understand how important costs are to you.
+				</p>
+				<p> Wow you really read this far! well if you want to get in touch with me so I can build you a snowman,</p>
+				<p align="center"> Contact me at: afotheri@deakin.edu.au </p>
+				<footer data-role="footer">
+					<h3>Alex Fotheringham</h3> 
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
