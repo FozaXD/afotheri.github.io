@@ -4,21 +4,22 @@ Student ID: 212230237
 Student Name: Alex Fotheringham
 -->
 <!-- Note: Reason I put each menu list on separate external pages was for easy modification when live. I.e. Price Changes. -->
-<!-- Images licenced free to use, sourced: https://stocksnap.io/-->
 <html>
 	<head>
 		<title>Foza Pizzas</title>
 		<!-- Set device scales -->
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1"></meta>
-		<!-- Initialise jquery mobile -->
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+		<!-- Initialise jQuery Mobile and CSS Theme -->
+		<link rel="stylesheet" href="themes/fozapizzastheme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	</head>
 
 	<body>
 		<!-- Second External Page:Sub Page: Pizza -->
-		<div data-role="page" id="pizzas" data-theme="b" >
+		<div data-role="page" id="pizzas" data-theme="a" >
 			<!-- Header for Menu Page -->
 			<div data-role="header" data-position="standard">
 				<h1>Foza Pizzas</h1>
@@ -29,9 +30,9 @@ Student Name: Alex Fotheringham
 			<div data-role="main" class="ui-content">
 				<center><h1>Drinks:</h1></center>
 				<div class="ui-grid-b">
-					<div class="ui-block-a"><div class="ui-bar ui-bar-b" style="height:20%">Drink:</div></div>
-					<div class="ui-block-b"><div class="ui-bar ui-bar-b" style="height:20%">Description:</div></div>
-					<div class="ui-block-c"><div class="ui-bar ui-bar-b" style="height:20%">Price:</div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:20%">Drink:</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:20%">Description:</div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:20%">Price:</div></div>
 					<div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:100%">Soft Drink</div></div>
 					<div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:100%">Choice of Cola, Diet Cola, Lemonade or Orange Fizz.</div></div>
 					<div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:100%">$2.50</div></div>
@@ -44,7 +45,9 @@ Student Name: Alex Fotheringham
 				</div>
 				<!-- Footer for Menu Page -->
 				<footer data-role="footer">
-					<h3>Alex Fotheringham</h3> 
+					<center>
+						<h4>Alex Fotheringham</h4>
+					</center> 
 				</footer>
 			</div>
 		</div>
