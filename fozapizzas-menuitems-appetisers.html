@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- This website has been developed as an assignment for SIT313 Mobile Computing at Deakin University Australia, 
+Student ID: 212230237
+Student Name: Alex Fotheringham
+-->
+<!-- Note: Reason I put each menu list on separate external pages was for easy modification when live. I.e. Price Changes. -->
+<!-- Images licenced free to use, sourced: https://stocksnap.io/-->
+<html>
+	<head>
+		<title>Foza Pizzas</title>
+		<!-- Set device scales -->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1"></meta>
+		<!-- Initialise jquery mobile -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	</head>
+
+	<body>
+		<!-- Second External Page:Sub Page: Pizza -->
+		<div data-role="page" id="pizzas" data-theme="b" >
+			<!-- Header for Menu Page -->
+			<div data-role="header" data-position="standard">
+				<h1>Foza Pizzas</h1>
+				<!-- Return to homepage button -->
+				<a href="#menu" data-icon="bars" data-transition="slide">Menu</a>
+			</div>
+			<!-- Main Menu Page Content -->
+			<div data-role="main" class="ui-content">
+				<center><h1>Appetisers:</h1></center>
+				<div class="ui-grid-c">
+					<div class="ui-block-a"><div class="ui-bar ui-bar-b" style="height:20%">Appetiser:</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-b" style="height:20%">Image:</div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-b" style="height:20%">Description:</div></div>
+					<div class="ui-block-d"><div class="ui-bar ui-bar-b" style="height:20%">Price:</div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:100%">Garlic Bread</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:100%"><img src="garlicbread.jpg" style="width: 50%;"></img></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:100%">Freshly baked bread stick with garlic butter and herbs.</div></div>
+					<div class="ui-block-d"><div class="ui-bar ui-bar-e" style="height:100%"><b>Stick:</b> $9</div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:100%">Bowl of Wedges</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:100%"><img src="wedges.jpg" style="width: 50%;"></img></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:100%">Thick cut crunchy wedges. </div></div>
+					<div class="ui-block-d"><div class="ui-bar ui-bar-e" style="height:100%"><b>S:</b> $6	<b>L:</b> $10</div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-e" style="height:100%">Chips</div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:100%"><img src="chips.jpg" style="width: 50%;"></img></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-e" style="height:100%">Sea-gulls like these ones. </div></div>
+					<div class="ui-block-d"><div class="ui-bar ui-bar-e" style="height:100%"><b>S:</b> $6	<b>L:</b> $10</div></div>
+				</div>
+				<!-- Footer for Menu Page -->
+				<footer data-role="footer">
+					<h3>Alex Fotheringham</h3> 
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
