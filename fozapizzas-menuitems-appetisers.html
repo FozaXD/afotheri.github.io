@@ -16,17 +16,18 @@ Student Name: Alex Fotheringham
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<style>
-			.ui-grid-c img {
-			width  : 100%;
-			height : auto;
-			}
-		</style>
 	</head>
 
 	<body>
 		<!-- Second External Page:Sub Page: Pizza -->
-		<div data-role="page" id="pizzas" data-theme="a" >
+		<div data-role="page" id="pizzas" data-theme="a">
+			<!-- Set grid image sizing -->
+			<style>
+				.ui-grid-c img {
+				width  : 50%;
+				height : auto;
+				}
+			</style>
 			<!-- Header for Menu Page -->
 			<div data-role="header" data-position="standard">
 				<h1>Foza Pizzas</h1>
